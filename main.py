@@ -68,7 +68,6 @@ if __name__ == '__main__':
             countries = countries[21:39]
             format_data = generate_formatter()
             for country in countries:
-                print(country)
                 format_data(country)
         except TimeoutException:
             print("Loading took too much time!")
